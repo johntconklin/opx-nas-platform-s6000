@@ -6,9 +6,6 @@ Build-Depends: debhelper (>= 9),dh-autoreconf,autotools-dev,libopx-common-dev,li
 Standards-Version: 3.9.3
 
 Package: libopx-nas-platform-s6000-1
-Provides: libopx-nas-platform1
-Conflicts: libopx-nas-platform1
-Replaces: libopx-nas-platform1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Network Abstraction s6000 Platform specific files and implementation
