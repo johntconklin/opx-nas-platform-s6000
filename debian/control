@@ -1,4 +1,4 @@
-Source: libopx-nas-platform-s6000
+Source: opx-nas-platform-s6000
 Section: net
 Priority: optional
 Maintainer: Dell EMC <ops-dev@lists.openswitch.net>
