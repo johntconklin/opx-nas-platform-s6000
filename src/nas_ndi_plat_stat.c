@@ -97,7 +97,7 @@ t_std_error ndi_plat_get_ids_len(nas_stat_type_t type, unsigned int * len){
         return STD_ERR_OK;
     }
 
-    EV_LOG(ERR,INTERFACE,0,"NAS-STAT","Invlaid Stat Type passed");
+    EV_LOG(ERR,INTERFACE,0,"NAS-STAT","Invalid Stat Type passed");
     return STD_ERR(NPU,PARAM,0);
 }
 
